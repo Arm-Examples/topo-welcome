@@ -1,18 +1,45 @@
-# Topo Welcome
+# Hello World
 
-A Hello World web app to test Topo setup.
+A minimal "Hello, World" web app for validating a Topo setup and deployment.
+It runs a single service that exposes a web page on the target,
+with the greeting text customizable via the NAME parameter.
+
+This is the most basic Topo project, intended as a starting point for understanding how a Topo Project is structured and how a simple containerized app is deployed to a target.
+
+It demonstrates:
+- Topo template metadata and arguments defined under the `x-topo` section of `compose.yaml`.
+- An HTML page that renders a customizable greeting.
+
+To find out more about the Topo template, look [here](https://github.com/arm/topo-template-format)
 
 ## Usage
 
-The easiest way to deploy is using `topo`. Download and install `topo` from [here](https://github.com/arm/topo)
+To use this template download and install `topo` from [here](https://github.com/arm/topo)
 
 ### Clone the project:
+
 ```bash
-topo clone topo-welcome <url-to-repo>
+topo clone ./target-directory template:Hello-World
+```
+
+You will be prompted to provide an argument for 'GREETING_NAME'
+
+```bash
+The person to greet
+Example: Markus
+Default: World
+GREETING_NAME (required)> Clark Kent
 ```
 
 ### Build and Deploy the project:
+
 ```bash
-cd topo-welcome
+cd topo-welcom e
 topo deploy --target <ip-address-of-target>
 ```
+
+### What you will see
+
+Once deployment completes, open a browser to `http://<ip-address-of-target>:8000` and you'll see a page that says `Hello Clark Kent, from a Topo container` Where 'Clark Kent' will be whatever you put when prompted.
+
+![screenshot of the webpage showing a greeting for Clark Kent](./.screenshot.png)
