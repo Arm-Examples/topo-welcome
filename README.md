@@ -40,6 +40,6 @@ topo deploy --target <ip-address-of-target>
 
 ### What you will see
 
-Once deployment completes, open a browser to `http://<ip-address-of-target>:8000` and you'll see a page that says `Hello Clark Kent, from a Topo container` Where 'Clark Kent' will be whatever you put when prompted.
+Once deployment completes, open a browser to `http://<ip-address-of-target>:8000` and you'll see a page that says "Hello <GREETING_NAME>, from a Topo container".
 
 ![screenshot of the webpage showing a greeting for Clark Kent](./.screenshot.png)
