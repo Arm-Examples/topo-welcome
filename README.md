@@ -10,7 +10,7 @@ It demonstrates:
 - Topo template metadata and arguments defined under the `x-topo` section of `compose.yaml`.
 - An HTML page that renders a customizable greeting.
 
-To find out more about the Topo template, look [here](https://github.com/arm/topo-template-format)
+To find out more about the Topo template format, see [arm/topo-template-format](https://github.com/arm/topo-template-format)
 
 ## Usage
 
