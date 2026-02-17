@@ -14,7 +14,7 @@ To find out more about the Topo template format, see [arm/topo-template-format](
 
 ## Usage
 
-To use this template download and install `topo` from [here](https://github.com/arm/topo)
+To use this template download and install `topo` from [arm/topo](https://github.com/arm/topo)
 
 ### Clone the project:
 
