@@ -3,20 +3,21 @@ services:
     build: 
       context: .
       args:
-        NAME: World
+        GREETING_NAME: World
     platform: linux/arm64
     ports:
       - "8000:80"
 
 x-topo:
-  name: "Topo Welcome"
+  name: "Hello World"
   description: |
-    A Hello World web app to test Topo setup
-
-  features: []
+    A minimal "Hello, World" web app for validating a Topo setup and deployment.
+    It runs a single service that exposes a web page on the target,
+    with the greeting text customizable via the GREETING_NAME parameter.
 
   args:
-    NAME:
-      description: The person to greet
+    GREETING_NAME:
+      description: The text to use in the greeting message
       required: true
-      example: "World"
+      default: "World"
+      example: "Markus"
