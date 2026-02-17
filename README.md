@@ -34,7 +34,7 @@ GREETING_NAME (required)> Clark Kent
 ### Build and Deploy the project:
 
 ```bash
-cd topo-welcom e
+cd topo-welcome
 topo deploy --target <ip-address-of-target>
 ```
 
