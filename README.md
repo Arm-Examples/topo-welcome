@@ -2,7 +2,7 @@
 
 A minimal "Hello, World" web app for validating a Topo setup and deployment.
 It runs a single service that exposes a web page on the target,
-with the greeting text customizable via the NAME parameter.
+with the greeting text customizable via the `GREETING_NAME` parameter.
 
 This is the most basic Topo project, intended as a starting point for understanding how a Topo Project is structured and how a simple containerized app is deployed to a target.
 
