@@ -1,5 +1,7 @@
 # Hello World
 
+> This project is a [Topo](https://github.com/arm/topo) template and follows the [Topo Template Format Specification](https://github.com/arm/Topo-Template-Format).
+
 A minimal "Hello, World" web app for validating a Topo setup and deployment.
 It runs a single service that exposes a web page on the target,
 with the greeting text customizable via the `GREETING_NAME` parameter.
