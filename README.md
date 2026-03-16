@@ -21,7 +21,7 @@ To use this template download and install `topo` from [arm/topo](https://github.
 ### Clone the project:
 
 ```bash
-topo clone template:Hello-World ./topo-welcome
+topo clone https://github.com/Arm-Examples/topo-welcome
 ```
 
 You will be prompted to provide an argument for 'GREETING_NAME'
