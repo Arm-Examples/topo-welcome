@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-This topo example project is open for external contributors, and welcomes contributions.
+This Topo example project is open for external contributors, and welcomes contributions.
 
 This project is licensed under the [APACHE 2](http://www.apache.org/licenses/LICENSE-2.0) license and all accepted contributions must have the same license.
 
