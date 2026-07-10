@@ -15,9 +15,10 @@ x-topo:
     It runs a single service that exposes a web page on the target,
     with the greeting text customizable via the GREETING_NAME parameter.
 
-  args:
+  args: &args
     GREETING_NAME:
       description: The text to use in the greeting message
       required: true
       default: "World"
       example: "Markus"
+  parameters: *args
