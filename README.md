@@ -1,6 +1,6 @@
 # Hello World
 
-> This is a [Topo](https://github.com/arm/topo) Project and follows the [Topo Project Specification](https://github.com/arm/topo-project-specification).
+> This is a [Topo](https://github.com/arm/topo) Project and follows the [Topo Project Specification](https://github.com/arm/topo/tree/main/docs/project-specification).
 
 A minimal "Hello, World" web app for validating a Topo setup and deployment.
 It runs a single service that exposes a web page on the target,
@@ -12,7 +12,7 @@ It demonstrates:
 - Topo Project metadata and parameters defined under the `x-topo` section of `compose.yaml`.
 - An HTML page that renders a customizable greeting.
 
-To find out more about the Topo Project Specification, see [arm/topo-project-specification](https://github.com/arm/topo-project-specification)
+To find out more about the Topo Project Specification, see [docs/project-specification](https://github.com/arm/topo/tree/main/docs/project-specification)
 
 ## Usage
 
