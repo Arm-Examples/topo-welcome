@@ -12,7 +12,7 @@ It demonstrates:
 - Topo Project metadata and parameters defined under the `x-topo` section of `compose.yaml`.
 - An HTML page that renders a customizable greeting.
 
-To find out more about the Topo Project Specification, see [docs/project-specification](https://github.com/arm/topo/tree/main/docs/project-specification)
+To find out more about the project format, see the [Topo Project Specification](https://github.com/arm/topo/tree/main/docs/project-specification).
 
 ## Usage
 
