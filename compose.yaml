@@ -17,9 +17,10 @@ x-topo:
   deployment_success_message: |
     Topo "Hello World" deployed successfully. Open http://<target ip>:8000 in a browser to view the greeting page.
 
-  args:
+  args: &args
     GREETING_NAME:
       description: The text to use in the greeting message
       required: true
       default: "World"
       example: "Markus"
+  parameters: *args
