@@ -3,7 +3,7 @@ services:
     build: 
       context: .
       args:
-        GREETING_NAME: World
+        GREETING_NAME: ${GREETING_NAME:-World}
     platform: linux/arm64
     ports:
       - "8000:80"
