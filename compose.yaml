@@ -20,7 +20,5 @@ x-topo:
   args: &args
     GREETING_NAME:
       description: The text to use in the greeting message
-      required: true
-      default: "World"
       example: "Markus"
   parameters: *args
