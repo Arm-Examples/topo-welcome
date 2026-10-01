@@ -15,7 +15,7 @@ x-topo:
     It runs a single service that exposes a web page on the target,
     with the greeting text customizable via the GREETING_NAME parameter.
   deployment_success_message: |
-    Topo "Hello World" deployed successfully. Open http://<target ip>:8000 in a browser to view the greeting page.
+    Topo "Hello World" deployed successfully. Open http://${TOPO_TARGET_HOSTNAME:-<target-hostname>}:8000 in a browser to view the greeting page.
 
   args: &args
     GREETING_NAME:
